@@ -1,0 +1,62 @@
+.contact-page {
+  padding: 80px 8%;
+}
+
+.contact-page h1 {
+  text-align: center;
+  color: #1e3a8a;
+  margin-bottom: 10px;
+}
+
+.contact-page p {
+  text-align: center;
+}
+
+.contact-container {
+  display: flex;
+  gap: 40px;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+
+.contact-info {
+  flex: 1;
+  min-width: 300px;
+}
+
+.contact-info h2 {
+  color: #1e3a8a;
+  margin-bottom: 20px;
+}
+
+.contact-info p {
+  text-align: left;
+  margin: 15px 0;
+  font-size: 18px;
+}
+
+.contact-info a {
+  text-decoration: none;
+  color: #f97316;
+  font-weight: bold;
+}
+
+.contact-map {
+  flex: 1;
+  min-width: 300px;
+  
+}
+
+.contact-map iframe {
+  border-radius: 12px;
+}
+
+@media (max-width: 768px) {
+  .contact-container {
+    flex-direction: column;
+  }
+
+  .contact-page {
+    padding: 50px 20px;
+  }
+}

@@ -1,0 +1,50 @@
+.brands{
+    padding:80px 8%;
+    background:white;
+}
+
+.brands h2{
+    text-align:center;
+    font-size:2.5rem;
+    color:#1e3a8a;
+    margin-bottom:40px;
+}
+
+.brand-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+    gap:20px;
+}
+
+.brand-card{
+    background:#f8f9fa;
+    border-radius:12px;
+    padding:30px;
+    text-align:center;
+    font-size:22px;
+    font-weight:bold;
+    color:#1e3a8a;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.brand-card:hover{
+    transform:translateY(-8px);
+    background:#f97316;
+    color:white;
+}
+
+@media(max-width:768px){
+
+.brands{
+padding:60px 20px;
+}
+
+.brands h2{
+font-size:2rem;
+}
+
+.brand-card{
+font-size:18px;
+}
+}

@@ -1,0 +1,210 @@
+.services-page {
+  padding: 70px 8%;
+  background: #f8f9fa;
+}
+
+.services-page h1 {
+  text-align: center;
+  color: #1e3a8a;
+  margin-bottom: 10px;
+}
+
+.service-subtitle {
+  text-align: center;
+  color: #555;
+  margin-bottom: 40px;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+}
+
+.service-card {
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0,0,0,.1);
+  transition: .3s;
+}
+
+.service-card:hover {
+  transform: translateY(-8px);
+}
+
+.service-icon {
+  font-size: 45px;
+  color: #f97316;
+  margin-bottom: 15px;
+}
+
+.service-card h3 {
+  color: #1e3a8a;
+  margin-bottom: 15px;
+}
+
+.service-card p {
+  color: brown;
+  line-height: 1.6;
+  font-weight: bold;
+  
+}
+
+.service-card button {
+  margin-top: 20px;
+  padding: 12px 25px;
+  background: #1e3a8a;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.service-card button:hover {
+  background: #f97316;
+}
+
+.why-choose {
+  margin-top: 70px;
+  text-align: center;
+}
+
+.features {
+  margin-top: 25px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px,1fr));
+  gap: 15px;
+}
+
+.features div {
+  background: white;
+  padding: 18px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.service-contact {
+  margin-top: 70px;
+  text-align: center;
+}
+
+.buttons {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.call-btn,
+.whatsapp-btn {
+  padding: 14px 28px;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.call-btn {
+  background: #1e3a8a;
+}
+
+.whatsapp-btn {
+  background: #25D366;
+}
+/* ===========================
+   Mobile (480px)
+=========================== */
+
+@media (max-width: 480px) {
+
+  .services-page {
+    padding: 40px 15px;
+  }
+
+  .services-page h1 {
+    font-size: 1.8rem;
+  }
+
+  .service-subtitle {
+    font-size: 0.95rem;
+  }
+
+  .service-card {
+    padding: 18px;
+  }
+
+  .service-card h3 {
+    font-size: 1.2rem;
+  }
+
+  .service-card p {
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
+
+  .service-icon {
+    font-size: 32px;
+  }
+
+  .features div {
+    font-size: 15px;
+    padding: 15px;
+  }
+
+  .call-btn,
+  .whatsapp-btn {
+    width: 100%;
+    max-width: 260px;
+    padding: 12px;
+    font-size: 16px;
+  }
+  /* ===========================
+   Tablet (768px)
+=========================== */
+
+@media (max-width: 768px) {
+
+  .services-page {
+    padding: 50px 20px;
+  }
+
+  .services-page h1 {
+    font-size: 2rem;
+  }
+
+  .service-subtitle {
+    font-size: 1rem;
+    margin-bottom: 30px;
+  }
+
+  .services-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .service-card {
+    padding: 20px;
+  }
+
+  .service-icon {
+    font-size: 38px;
+  }
+
+  .features {
+    grid-template-columns: 1fr;
+  }
+
+  .buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .call-btn,
+  .whatsapp-btn {
+    width: 250px;
+  }
+}
+}
