@@ -19,11 +19,11 @@ function Contact() {
             Nellore, Andhra Pradesh
           </p>
 
-          <p>
+          <p>                 
             
-            📞 <a href="tel"> PM BASHA : +91 9966508633</a><br></br>
+            📞 <a href="tel:+919966508633">+91 9966508633</a><br></br>
           
-            📞 <a href="tel">P WASEEM : +91 9985612380</a>
+            📞 <a href="tel:+919985612380">+91 9985612380</a>
           </p>
 
           <p>

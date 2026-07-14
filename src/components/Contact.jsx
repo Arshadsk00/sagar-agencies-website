@@ -16,8 +16,8 @@ function Contact() {
         <div className="contact-card">
           <FaPhoneAlt className="contact-icon" />
           <h3>Phone</h3>
-         <a href="tel:" className="contact-link">+91 9966508633 </a><br></  br>
-         <a href="tel:" className="contact-link">+91 9985612380</a>
+         <a href="tel:+919966508633" className="contact-link">+91 9966508633 </a><br></  br>
+         <a href="tel:+919985612380" className="contact-link">+91 9985612380</a>
         </div>
 
         <div className="contact-card">
