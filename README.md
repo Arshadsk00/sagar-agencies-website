@@ -1,16 +1,70 @@
-# React + Vite
+# 🏪 Sagar Agencies – Kitchen Appliances Business Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive business website developed for **Sagar Agencies**, a kitchen appliances store. The application enables customers to browse products and provides a secure admin panel for managing product information in real time.
 
-Currently, two official plugins are available: 
+## 🌐 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+**Website:** https://sagar-agencies-website.vercel.app
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Customer Features
 
-## Expanding the ESLint configuration
+* Responsive and modern user interface
+* Browse kitchen appliance products
+* Search products
+* View detailed product information
+* Contact and service pages
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Admin Features
+
+* Secure Admin Login using Firebase Authentication
+* Add new products
+* Edit existing products
+* Update product information
+* Delete products
+* Upload product images using Cloudinary
+* Real-time product management with Firebase Firestore
+
+> The admin can manage products without modifying the website's source code. Any changes made through the admin panel are reflected on the live website automatically.
+
+## 🛠️ Tech Stack
+
+* React.js
+* JavaScript (ES6+)
+* HTML5
+* CSS3
+* Firebase Authentication
+* Firebase Firestore
+* Cloudinary
+* React Router
+* Git & GitHub
+* Vercel
+
+## 📁 Project Structure
+
+```text
+src/
+├── admin/
+├── components/
+├── pages/
+├── firebase/
+├── assets/
+└── App.jsx
+```
+
+
+
+## 📌 Future Enhancements
+
+* Product categories and filters
+* Order management
+* Customer enquiry dashboard
+* Analytics for product views
+* Progressive Web App (PWA) support
+
+## 👨‍💻 Author
+
+**Arshad Shaik**
+
+GitHub: https://github.com/Arshadsk00
